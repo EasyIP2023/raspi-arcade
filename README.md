@@ -1,6 +1,8 @@
 # Battery Powered Raspberry Pi Arcade
 
-## Parts
+Note This is my first time using a lot of these tools yes current at this time an amateur wood cutter.
+
+### Parts
 This project in tool cost me around $300 largely due to the fact that I needed extra tools and I am making two.
 
 **Tools I Have**
@@ -37,7 +39,7 @@ These parts were a lot cheaper in store. Just an FYI and with coupons I saved $9
 * Gorrilla Glue
 * 25ft Anvil Tape Measure
 * Basic paint brush
-* Semi-Gloss Glidden Red Paint (GLN6413N)
+* Semi-Gloss Glidden Red 2-coat Paint (GLN6413N)
 
 **Walmart**
 * Electric Tape
@@ -47,3 +49,35 @@ These parts were a lot cheaper in store. Just an FYI and with coupons I saved $9
 **Staples**
 * Pencil Compas
 * Sharpie's
+
+## Creating
+
+### Building/Shaping The Frame
+
+1. Take your 1/2 2 by 4 Wood and draw 4 circles with a radius of 5". The diameter should be about 10".
+
+![Board With Circles](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181214_200639.jpg)
+
+2. Using the [RYOBI Jig Saw](https://www.homedepot.com/p/Ryobi-18-Volt-ONE-Orbital-Jig-Saw-Tool-Only-P5231/301916606) cut the board into 4 circles of equal size.
+3. Clean Workspace!!!!! :)
+4. Take the 8 * 9" Traditional Leg (Pierna Tradicional) and cut off the tip to shorten height of case. I did this because my coper wires wasn't going to reach the pi.
+
+![4 Circles and Pillars](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181214_213226.jpg)
+
+5. Clean Workspace!!!!! :)
+6. Use the [dermel tool](https://www.homedepot.com/p/Dremel-200-Series-1-15-Amp-Dual-Speed-Corded-Rotary-Tool-Kit-with-15-Accessories-and-1-Attachment-200-1-15/202349458) to shape wood and make edges smooth.
+
+![4 Circles & Pillars](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181214_213226.jpg)
+
+7. For both bottom plates insert 4 holes. Two on the left about 1 1/4" from the circles edge and about a little less than 4" apart. The right two holes need to be about 1" from the circles edge and about 6 1/2" apart. **Note When doing this most of these measurements are me just eye balling**. The reason you need to make 4 holes is because the traditional leg has a screw at the bottom all you need to do is screw it in.
+
+![Leg Screw](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181215_031938.jpg)
+![4 Holes](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181215_032258.jpg)
+
+**This is how it should look**
+
+![Top Pillars](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181215_032602.jpg)
+
+### Paint
+
+Remove the traditional legs and paint all 4 plates both sides using the Semi-Gloss Glidden Red 2 coat Paint (GLN6413N).
