@@ -13,7 +13,7 @@ This project in tool cost me around $300 largely due to the fact that I needed e
 
 **Amazon**
 * 4 * [EG STARTS 5X 30mm Arcade LED Lights Push Button](https://www.amazon.com/gp/product/B01N11BDX9/ref=oh_aui_detailpage_o02_s02?ie=UTF8&psc=1)
-* 2 * [EG STARTS Red Arcade Classic Competition 5 Pin Stick 5P Rocker 4 - 8 Ways Joystick](https://www.amazon.com/gp/product/B01N2G0H1T/ref=oh_aui_detailpage_o02_s02?ie=UTF8&psc=1
+* 2 * [EG STARTS Red Arcade Classic Competition 5 Pin Stick 5P Rocker 4 - 8 Ways Joystick](https://www.amazon.com/gp/product/B01N2G0H1T/ref=oh_aui_detailpage_o02_s02?ie=UTF8&psc=1)
 * 2 * [Raspberry Pi 3 B+ Motherboard](https://www.amazon.com/gp/product/B07BDR5PDW/ref=oh_aui_detailpage_o02_s01?ie=UTF8&psc=1)
 * 2 * [SanDisk 32GB Ultra microSDXC](https://www.amazon.com/gp/product/B073JWXGNT/ref=oh_aui_detailpage_o02_s01?ie=UTF8&psc=1)
 * 2 * [Adafruit PowerBoost 1000 Charger](https://www.amazon.com/gp/product/B01BMRBTH2/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1)
