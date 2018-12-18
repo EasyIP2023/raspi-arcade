@@ -1,9 +1,9 @@
 # Battery Powered Raspberry Pi Arcade
 
-Note This is my first time using a lot of these tools yes current at this time an amateur wood cutter.
+Note This is my first time using a lot of these tools. Yes currently at this time an amateur wood cutter.
 
 ## Parts
-This project in tool cost me around $300 largely due to the fact that I needed extra tools and I am making two.
+This project in total cost me around $300 largely due to the fact that I needed extra tools and I am making two.
 
 **Tools I Have**
 * [Digital Multimeter](https://www.amazon.com/AstroAI-Digital-Multimeter-Voltage-Tester/dp/B01ISAMUA6/ref=sr_1_5?s=hi&ie=UTF8&qid=1544831949&sr=1-5&keywords=Digital+Multimeter)
@@ -59,13 +59,13 @@ These parts were a lot cheaper in store. Just an FYI and with coupons I saved $9
 
 2. Using the [RYOBI Jig Saw](https://www.homedepot.com/p/Ryobi-18-Volt-ONE-Orbital-Jig-Saw-Tool-Only-P5231/301916606) cut the board into 4 circles of equal size.
 3. Clean Workspace!!!!! :)
-4. Take the 8 * 9" Traditional Leg (Pierna Tradicional) and cut off the tip to shorten height of case. I did this because my coper wires wasn't going to reach the pi.
+4. Take the 8 * 9" Traditional Leg (Pierna Tradicional) and cut off the tip to shorten height of case. I did this because my coper wires weren't going to reach the pi.
 
 ![4 Circles and Pillars](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181214_213226.jpg)
 
 5. Clean Workspace!!!!! :)
 6. Use the [dermel tool](https://www.homedepot.com/p/Dremel-200-Series-1-15-Amp-Dual-Speed-Corded-Rotary-Tool-Kit-with-15-Accessories-and-1-Attachment-200-1-15/202349458) to shape wood and make edges smooth.
-7. For both bottom plates insert 4 holes. Two on the left about 1 1/4" from the circles edge and about a little less than 4" apart. The right two holes need to be about 1" from the circles edge and about 6 1/2" apart. **Note When doing this most of these measurements are me just eye balling**. The reason you need to make 4 holes is because the traditional leg has a screw at the bottom all you need to do is screw it in.
+7. For both bottom plates insert 4 holes. Two on the left about 1 1/4" from the circles edge and about a little less than 4" apart. The right two holes need to be about 1" from the circles edge and about 6 1/2" apart. **Note When doing this most of these measurements. I just eye balled**. The reason you need to make 4 holes is because the traditional leg has a screw at the bottom all you need to do is screw it in.
 
 ![Leg Screw](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181215_031938.jpg)
 ![4 Holes](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181215_032258.jpg)
