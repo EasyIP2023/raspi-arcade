@@ -2,9 +2,9 @@
 
 Note This is my first time using a lot of these tools. Yes currently at this time an amateur wood cutter.
 
-[![BPRA](https://i.ytimg.com/vi/H5pTEm7Kk1I/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBZiAN7x7iLXhdcWM4ZG0seVYSBWg)](https://www.youtube.com/watch?v=H5pTEm7Kk1I "Battery Powered Raspi Arcade Display")
+[![BPRA](https://i.ytimg.com/vi/H5pTEm7Kk1I/0.jpg)](https://www.youtube.com/watch?v=H5pTEm7Kk1I "Battery Powered Raspi Arcade Display - Click To Watch")
 ![Final Look](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181218_023538.jpg)
-
+[![Little red ridning hood](http://i.imgur.com/7YTMFQp.png)](https://vimeo.com/3514904 "Little red riding hood - Click to Watch!")
 ## Parts
 This project in total cost me around $300 largely due to the fact that I needed extra tools and I am making two.
 
