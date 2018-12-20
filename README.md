@@ -2,7 +2,8 @@
 
 Note This is my first time using a lot of these tools. Yes currently at this time an amateur wood cutter.
 
-<iframe width="100%" height="720" src="https://www.youtube.com/embed/H5pTEm7Kk1I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+**Click image below to watch the video recorded using SnapChat**
+[[embed https://www.youtube.com/watch?v=H5pTEm7Kk1I ]]
 ![Final Look](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181218_023538.jpg)
 
 ## Parts
