@@ -3,9 +3,7 @@
 Note This is my first time using a lot of these tools. Yes currently at this time an amateur wood cutter.
 
 **Click image below to watch the video recorded using SnapChat**
-[[embed url=http://www.youtube.com/watch?v=6YbBmqUnoQM]]
-[[embed url=https://www.youtube.com/watch?v=H5pTEm7Kk1I ]]
-![Final Look](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181218_023538.jpg)
+[![BPRA](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181218_023538.jpg)](https://www.youtube.com/watch?v=H5pTEm7Kk1I "Battery Powered Raspi Arcade Display - Click To Watch")
 
 ## Parts
 This project in total cost me around $300 largely due to the fact that I needed extra tools and I am making two.
