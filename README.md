@@ -3,7 +3,7 @@
 Note This is my first time using a lot of these tools. Yes currently at this time an amateur wood cutter.
 
 **Click image below to watch the video recorded using SnapChat**
-[[embed https://www.youtube.com/watch?v=H5pTEm7Kk1I ]]
+[[embed url=https://www.youtube.com/watch?v=H5pTEm7Kk1I ]]
 ![Final Look](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181218_023538.jpg)
 
 ## Parts
