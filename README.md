@@ -2,6 +2,9 @@
 
 Note This is my first time using a lot of these tools. Yes currently at this time an amateur wood cutter.
 
+[![BPRA](https://i.ytimg.com/vi/H5pTEm7Kk1I/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBZiAN7x7iLXhdcWM4ZG0seVYSBWg)](https://www.youtube.com/watch?v=H5pTEm7Kk1I "Battery Powered Raspi Arcade Display")
+![Final Look](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181218_023538.jpg)
+
 ## Parts
 This project in total cost me around $300 largely due to the fact that I needed extra tools and I am making two.
 
@@ -73,6 +76,15 @@ These parts were a lot cheaper in store. Just an FYI and with coupons I saved $9
 **This is how it should look**
 
 ![Top Pillars](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181215_032602.jpg)
+
+8. Now draw the 8 button + joystick layout on the wood. I put the pillars on, flipped it over and just eyeballed it. So my button measurements aren't accurate.
+  * Used a 5/8 spade bit to cut the joystick hole
+  * Used a 1 1/8 spade bit to cut the buttons
+
+![1 1/8 Spade Bit](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181217_144101.jpg)
+![Holes Cut](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181215_215323.jpg)
+
+9. Now that the buttons are cut you using the dermal tool you need to shape the wood inserting a point to hold the joystick.
 
 ## Paint
 
