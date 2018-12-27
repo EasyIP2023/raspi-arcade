@@ -125,6 +125,7 @@ After paint has dried carve button letters into plates using the dermal tool.
 
 ![Perf Board](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181217_221041.jpg)
 
+**Note: I didn't solder everything in this exact order**
 7. Solder USB A connector onto the 1000c PowerBoost Charger
 8. Solder the two pins on the switch to the GND and EN (enable) pins on the 1000c PowerBoost charger.
 9. Now Gorrilla Glue the top on. Let it dry
@@ -178,4 +179,4 @@ I actually did this step before even cutting wood, but I put it last.
 
 ![Both](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181218_030055.jpg)
 ![Top](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181218_023520.jpg)
-![Left Side](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181218_023520.jpg)
+![Left Side](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181218_023513.jpg)
