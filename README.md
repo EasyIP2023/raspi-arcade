@@ -1,12 +1,12 @@
 # Battery Powered Raspberry Pi Arcade
-
 Note This is my first time using a lot of these tools. Yes currently at this time an amateur wood cutter.
 
 **Click image below to watch the video recorded using SnapChat**
+
 [![BPRA](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181218_023538.jpg)](https://www.youtube.com/watch?v=H5pTEm7Kk1I "Battery Powered Raspi Arcade Display - Click To Watch")
 
 ## Parts
-This project in total cost me around $300 largely due to the fact that I needed extra tools and I am making two.
+This project in total cost me around $350 largely due to the fact that I needed extra tools and I am making two.
 
 **Tools I Have**
 * [Digital Multimeter](https://www.amazon.com/AstroAI-Digital-Multimeter-Voltage-Tester/dp/B01ISAMUA6/ref=sr_1_5?s=hi&ie=UTF8&qid=1544831949&sr=1-5&keywords=Digital+Multimeter)
@@ -68,7 +68,10 @@ These parts were a lot cheaper in store. Just an FYI and with coupons I saved $9
 
 5. Clean Workspace!!!!! :)
 6. Use the [dermel tool](https://www.homedepot.com/p/Dremel-200-Series-1-15-Amp-Dual-Speed-Corded-Rotary-Tool-Kit-with-15-Accessories-and-1-Attachment-200-1-15/202349458) to shape wood and make edges smooth.
-7. For both bottom plates insert 4 holes. Two on the left about 1 1/4" from the circles edge and about a little less than 4" apart. The right two holes need to be about 1" from the circles edge and about 6 1/2" apart. **Note When doing this most of these measurements. I just eye balled**. The reason you need to make 4 holes is because the traditional leg has a screw at the bottom all you need to do is screw it in.
+
+**README: At the time I should of thought of cutting the button holes before cutting holes for the 4 pillars. That way you can position your pillars based off the orientation of the buttons not the other way around**
+
+7. For both bottom plates insert 4 holes. Two on the left about 1 1/4" from the circles edge and about a little less than 4" apart. The right two holes need to be about 1" from the circles edge and about 6 1/2" apart. **Note When doing this, most of these measurements are just eye balled**. The reason you need to make 4 holes is because the traditional leg has a screw at the bottom all you need to do is screw it in.
 
 ![Leg Screw](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181215_031938.jpg)
 ![4 Holes](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181215_032258.jpg)
@@ -84,8 +87,56 @@ These parts were a lot cheaper in store. Just an FYI and with coupons I saved $9
 ![1 1/8 Spade Bit](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181217_144101.jpg)
 ![Holes Cut](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181215_215323.jpg)
 
-9. Now that the buttons are cut you using the dermal tool you need to shape the wood inserting a point to hold the joystick.
+9. Now that the buttons are cut. Use the dermal tool to shape a rectangular hole. Achieved by outlining the joystick. So, that you have room to maneuver the joystick remember the wood is a 1/2 2 by 4.
+
+![Button Holder](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181216_181323.jpg)
+
+10. Grab one of your button holders and outline each button. After using the dermal tool shape holes so that the button holders fit between them. **NOTE IT DOES NOT NEED TO BE PERFECT!!! PARTS 8-10 TOOK ME LONG OF TIME!!!!**
+11. Take your joystick and insert it into the joystick holder. Draw each edge circling the holes where your 8 - 32 * 1 - 1/2 inch screws would be inserted. To drill the holes use a 3/16 inch drill bit.
+
+![drill bit](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181216_185612.jpg)
+![Shaped buttons](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181216_182343.jpg)
 
 ## Paint
 
-Remove the traditional legs and paint all 4 plates both sides using the Semi-Gloss Glidden Red 2 coat Paint (GLN6413N).
+Remove the traditional legs and paint all 4 plates both sides using the Semi-Gloss Glidden Red 2 coat Paint (GLN6413N). I decided to add 4 coats to the top and 3 at the bottom of each plate for a total of 14 coats. I let it dry over night. After the next morning I inserted buttons holders.
+
+![Painted](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181217_112618.jpg)
+
+## Carving Name
+
+After paint has dried carve button letters into plates using the dermal tool.
+
+![Buttons Carved](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181217_162638.jpg)
+
+# Installing
+
+1. Download [retro pie](https://retropie.org.uk/download/) for whatever version of the pie you have.
+2. I used [dd](https://wiki.archlinux.org/index.php/Dd) to install it on my micro USB, but you can use anything you want. ```gunzip -c /path/to/retropie.img.gz | sudo dd of=/dev/sdb```
+3. Use a keyboard configure retropie
+  * hit F4 once loaded
+  * [Configure your keyboard](https://thepihut.com/blogs/raspberry-pi-tutorials/25556740-changing-the-raspberry-pi-keyboard-layout) making is US if need be
+  * Configure wifi
+    - ```sudo -s```
+    - ```wpa_passphrase "ssid" "password" >> /etc/wpa_supplicant/wpa_supplicant.conf```
+  * Install vim ```sudo apt install vim```
+  * Enable ssh access on reboots. Can remove it later
+    - ```sudo systemctl enable ssh.service```
+  * Download and install [Adafruit retropie config](https://learn.adafruit.com/retro-gaming-with-raspberry-pi/adding-controls-software). It'll ask if you want to reboot. Do so!
+    - ```cd```
+    - ```curl https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/retrogame.sh > retrogame.sh```
+    - ```chmod +x retrogame.sh```
+    - ```sudo ./retrogame.sh```
+  * Using vim update the [/boot/retrogame.cfg](https://raw.githubusercontent.com/EasyIP2023/raspi-arcade/master/retrogame.cfg) to look like mine.
+    - I used GPIO pin 12 as the Left Shoulder button and the GND right next to it
+    - I made GPIO pin 13 as the Right Shoulder button and 20 as GND.
+  * Make sure audio goes through hdmi
+    - Inside the /boot/config.txt file uncomment the line with ```hdmi_drive=2```
+    - Here's a [YouTube link](https://www.youtube.com/watch?v=4V9tQPNwk8M) to help if you have any other audio related issues
+  * Change passwords
+    - ```sudo -s```
+    - ```passwd``` to change root password
+    - ```passwd pi``` to change pi's password
+4. Installing Roms
+  * I labeled the names of the folder that you should scp these [Roms](https://github.com/EasyIP2023/raspi-arcade/tree/master/games) into. You can download more games here at [gamulator.com](https://www.gamulator.com/roms) at your leisure
+  * **Example:** ```scp games/snes/* pi@<ip address>:/home/pi/RetroPie/roms/snes```
