@@ -126,6 +126,7 @@ After paint has dried carve button letters into plates using the dermal tool.
 ![Perf Board](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181217_221041.jpg)
 
 **Note: I didn't solder everything in this exact order**
+
 7. Solder USB A connector onto the 1000c PowerBoost Charger
 8. Solder the two pins on the switch to the GND and EN (enable) pins on the 1000c PowerBoost charger.
 9. Now Gorrilla Glue the top on. Let it dry
@@ -147,7 +148,7 @@ I actually did this step before even cutting wood, but I put it last.
 
 1. Download [retro pie](https://retropie.org.uk/download/) for whatever version of the pie you have.
 2. I used [dd](https://wiki.archlinux.org/index.php/Dd) to install it on my micro USB, but you can use anything you want. ```gunzip -c /path/to/retropie.img.gz | sudo dd of=/dev/sdb```
-4. Using a keyboard configure RetroPie
+3. Using a keyboard configure RetroPie
   - hit F4 once loaded
   - [Configure your keyboard](https://thepihut.com/blogs/raspberry-pi-tutorials/25556740-changing-the-raspberry-pi-keyboard-layout) making is US if need be
   - Configure wifi
@@ -171,7 +172,7 @@ I actually did this step before even cutting wood, but I put it last.
     - ```sudo -s```
     - ```passwd``` to change root password
     - ```passwd pi``` to change pi's password
-5. Installing Roms
+4. Installing Roms
   - I labeled the names of the folder that you should scp these [Roms](https://github.com/EasyIP2023/raspi-arcade/tree/master/games) into. You can download more games here at [gamulator.com](https://www.gamulator.com/roms) at your leisure
   - **Example:** ```scp games/snes/* pi@<ip address>:/home/pi/RetroPie/roms/snes```
 
