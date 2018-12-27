@@ -175,6 +175,7 @@ I actually did this step before even cutting wood, but I put it last.
 4. Installing Roms
   - I labeled the names of the folder that you should scp these [Roms](https://github.com/EasyIP2023/raspi-arcade/tree/master/games) into. You can download more games here at [gamulator.com](https://www.gamulator.com/roms) at your leisure
   - **Example:** ```scp games/snes/* pi@<ip address>:/home/pi/RetroPie/roms/snes```
+5. Adding Meta data. Click [here](https://retropie.org.uk/docs/Scraper/) to get metadata like boxart and video previews (snapshots) for your games from the internet.
 
 # Final Look
 
