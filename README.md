@@ -3,6 +3,8 @@ Note This is my first time using a lot of these tools. Yes currently at this tim
 
 **Click image below to watch the video recorded using SnapChat**
 
+[Part 2 demonstration link](https://www.youtube.com/watch?v=8g1rfNmyUMY)
+
 [![BPRA](https://github.com/EasyIP2023/raspi-arcade/blob/master/pics/20181218_023538.jpg)](https://www.youtube.com/watch?v=H5pTEm7Kk1I "Battery Powered Raspi Arcade Display - Click To Watch")
 
 ## Parts
