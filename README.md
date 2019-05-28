@@ -1,5 +1,5 @@
 # Battery Powered Raspberry Pi Arcade
-Note This is my first time using a lot of these tools. Yes currently at this time an amateur wood cutter. Reason for this project make for Christmas mom and sister 2 Battery Powered Raspberry Pi Arcade's.
+Note This is my first time using a lot of these tools. Yes currently at this time an amateur wood cutter.
 
 **Click image below to watch the video recorded using SnapChat**
 
