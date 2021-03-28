@@ -1,3 +1,0 @@
-aliens.zip
-galaga.zip
-popeye.zip
