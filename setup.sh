@@ -84,8 +84,8 @@ config_img() {
 
   cp ${cur_dir}/retrogame.cfg ${mount_dir}/boot/
   sed -i -e "s/#hdmi_drive=2/hdmi_drive=2/g" \
-  			 -e "s/#disable_overscan=1/disable_overscan=1/g" \
-  			 -e "s/overscan_scale=1/#overscan_scale=1/g" \
+         -e "s/#disable_overscan=1/disable_overscan=1/g" \
+         -e "s/overscan_scale=1/#overscan_scale=1/g" \
   ${mount_dir}/boot/config.txt
 }
 
